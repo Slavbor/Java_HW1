@@ -7,15 +7,15 @@ public class HW_1 {
         //1. Выбросить случайное целое число в диапазоне от 0 до 2000 и сохранить в i
         int i = (int) (Math.random() * (1000 - (-1000))) + (-1000);
         System.out.print("\n");
-        System.out.println("Рандомное число i: " + i);
+        System.out.println("Случайное число i: " + i);
         System.out.print("\n");
 
         //2. Посчитать и сохранить в n номер старшего значащего бита выпавшего числа
         String temp = Integer.toBinaryString(i);
-        System.out.println("Рандомное число в двоичной системе: " + temp);
+        System.out.println("Случайное число в двоичной системе: " + temp);
         System.out.print("\n");
         int n = temp.length();
-        System.out.println("старший значащий бит n стоит на позиции " + n);
+        System.out.println("Старший значащий бит n стоит на позиции " + n);
         System.out.print("\n");
 
         //3. Найти все кратные n числа в диапазоне от i до Short.MAX_VALUE сохранить в массив m1

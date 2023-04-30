@@ -8,7 +8,7 @@ public class HW_4 {
 
     public static void main(String[] args) throws Exception {
         System.out.println("\n 1.Сохранить в файл строку и загрузить из файла строку с выводом в консоль используя классы FileWriter и FileReader");
-        String txt_file = "file with text";
+        String txt_file = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
         FileWriter fw = new FileWriter("test_java_txt.txt");
         fw.write(txt_file);

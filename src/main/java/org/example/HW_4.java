@@ -67,7 +67,6 @@ public class HW_4 {
         System.out.println("Список возрастов: " + people_age);
         System.out.println("Список полов: " + sex);
 
-
         System.out.println("\n 4.Отсортировать по возрасту используя дополнительный список индексов.");
         List<Integer> age = new ArrayList<Integer>(people_age);
         for (i = 0; i < people_age.size(); i++) {
